@@ -1,0 +1,51 @@
+/*Luis Carrillo, 921749501, Myst1cLeaf */
+/*Style code for the game, ball, blocks, and holes */
+body{
+
+    background-color: black;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Set the game boundaries to 800px by 800px. Made a border to make it look nice*/
+#game{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border: 2px solid #00FFFF;
+    margin: auto;
+    overflow: hidden;
+}
+/*Made the ball setting the border radius to 50% and made it mint green.*/
+#ball{
+    width: 20px;
+    height: 20px;
+    background-color: #00FFFF;
+    border-radius: 50%;
+    position: relative;
+    top: 700px;
+    left: 190px;
+    z-index: 1000000;
+}
+/*Created block as the width of the whole game.*/
+.block{
+    width: 800px;
+    height: 20px;
+    background-color: black;
+    border: 2px solid #00FFFF; 
+    position: relative;
+    top: 100px;
+    margin-top: -24.5px;
+}
+/*Made it appear like a hole setting it to white*/
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -24.5px;
+    border: 3px solid white;
+}
